@@ -47,6 +47,31 @@ a {
 
 /* main content */
 
-[role=main] {
-    padding: 30px;
+.card {
+    margin: 30px auto;
+    padding: 25px;
+}
+
+.card-header {
+    padding: 0px 0px 10px 0px;
+    margin: 0px 0px 10px 0px;
+    color: #4aaaa5;
+    border-bottom: 2px solid rgba(0,0,0,.125);
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
+}
+/* main content */
+
+/* footer */
+.footer-copyright {
+    background: #777777;
+    color: #ffffff;
+    bottom: 0;
+    padding: 25px;
+    border-top: 8px solid #4aaaa5;
 }
