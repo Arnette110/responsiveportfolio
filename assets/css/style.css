@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar-light .navbar-brand {
+    color:white;
+
+
+}
+.navbar-brand {
+    display: inline-block;
+    padding: 20px;
+    margin-left: 30px;
+    font-size: 30px;
+    line-height: inherit;
+    white-space: nowrap;
+    background: teal;
+    
+}
