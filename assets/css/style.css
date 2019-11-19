@@ -6,7 +6,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
-    background-color: bisque;
+    background-image: url(/assets/images/triangle-mosaic.jpg);
     background-attachment: fixed;
 }
 a {
@@ -23,6 +23,7 @@ a {
     margin-left: auto;
     border-bottom: 1px;
     border-bottom-style: groove;
+    background: #ffffff;
 }
 
 .logo {
@@ -30,6 +31,7 @@ a {
     background: #4aaaa5;
     width: max-content;
     padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .nav {
     display: -ms-flexbox;
@@ -55,6 +57,7 @@ a {
 .card-header {
     padding: 0px 0px 10px 0px;
     margin: 0px 0px 10px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     border-bottom: 2px solid rgba(0,0,0,.125);
 }
@@ -75,3 +78,4 @@ a {
     padding: 25px;
     border-top: 8px solid #4aaaa5;
 }
+/* footer */
