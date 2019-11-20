@@ -2,13 +2,14 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
-    background-image: url(/assets/images/triangle-mosaic.jpg);
-    background-attachment: fixed;
+       
 }
+
+
 a {
     color: #777777;
     text-decoration: none;
@@ -17,6 +18,7 @@ a {
 /* nav and logo */
 .container-fluid {
     width: 100%;
+    height: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -24,6 +26,10 @@ a {
     border-bottom: 1px;
     border-bottom-style: groove;
     background: #ffffff;
+}
+.main {
+    background-image: url(../images/qbkls/qbkls.png);
+    
 }
 
 .logo {
@@ -50,6 +56,7 @@ a {
 /* main content */
 
 .card {
+    position: relative;
     margin: 30px auto;
     padding: 25px;
 }
@@ -60,6 +67,7 @@ a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     border-bottom: 2px solid rgba(0,0,0,.125);
+    background: #ffffff;
 }
 
 .card-body {
@@ -68,14 +76,28 @@ a {
     padding: 10px 0px 10px 0px;
     margin: 10px 0px 10px 0px;
 }
+
 /* main content */
 
 /* footer */
 .footer-copyright {
     background: #777777;
     color: #ffffff;
-    bottom: 0;
     padding: 25px;
     border-top: 8px solid #4aaaa5;
+   
 }
 /* footer */
+h4 {
+    height: 50px;
+    width: 100%;
+    background: #4aaaa5;
+    position: relative;
+    bottom: 10px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 2;
+    font-size: 1.25em;
+    padding-bottom: 10px;
+    
+}
