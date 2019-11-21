@@ -2,6 +2,8 @@
 
 This is my portfolio site using HTML, CSS and bootstrap. It is a work in progress. The form in contact.html is not yet functional. The gallery links in portfolio.html are currently placeholders for future projects, except for the portfolio image which links to my previous portfolio project.
 
+https://arnette110.github.io/responsiveportfolio/
+
 
 ## Built With
 
