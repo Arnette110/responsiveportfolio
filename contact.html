@@ -13,7 +13,9 @@
         <link rel="stylesheet" href="/assets/css/style.css" />
     </head>
 
-    <body class="vh-auto">
+
+    <body class="vh-100">
+        <!-- header -->
         <header>
             <div class="container-fluid">
                 <div class="row no-gutters">
@@ -32,72 +34,87 @@
                     </div>
                 </div>
             </div>
-            
+
         </header>
+        <!-- header -->
+
+        <!-- content container card -->
         <main class="container-fluid main">
             <div class="row no-gutters">
                 <div class="col-md-1"></div>
                 <div class="col-md-8">
                     <div class="card">
                         <h3 class="card-header">Contact</h3>
-                        <form id="contact-form" method="post" action="contact.php" role="form">
+                        <!-- contact form content -->
+                        <form id="contact-form" role="form">
 
-                                <div class="messages"></div>
-                            
-                                <div class="controls">
-                            
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label for="form_name">Firstname *</label>
-                                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label for="form_lastname">Lastname *</label>
-                                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-                                                <div class="help-block with-errors"></div>
-                                            </div>
+                            <div class="messages"></div>
+
+                            <div class="controls">
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_name">Firstname</label>
+                                            <input id="form_name" type="text" name="name" class="form-control"
+                                                placeholder="Please enter your firstname" required="required"
+                                                data-error="Firstname is required.">
+                                            <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label for="form_email">Email *</label>
-                                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                        </div>
-                                       
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <label for="form_message">Message *</label>
-                                                <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <input type="submit" class="btn btn-success btn-send" value="Send message">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_lastname">Lastname </label>
+                                            <input id="form_lastname" type="text" name="surname" class="form-control"
+                                                placeholder="Please enter your lastname" required="required"
+                                                data-error="Lastname is required.">
+                                            <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
-                                  
                                 </div>
-                            
-                            </form>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_email">Email
+                                            </label>
+                                            <input id="form_email" type="email" name="email" class="form-control"
+                                                placeholder="Please enter your email" required="required"
+                                                data-error="Valid email is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="form_message">Message</label>
+                                            <textarea id="form_message" name="message" class="form-control"
+                                                placeholder="Message for me" rows="4" required="required"
+                                                data-error="Please, leave us a message."></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="submit" class="btn btn-success btn-send" value="Send message">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </form>
+                        <!-- contact form content end -->
                     </div>
                 </div>
             </div>
         </main>
+        <!-- content container card -->
 
-        
-            <div class="footer-copyright text-center mb-0">
-                &copy; 2019 Copyright
-            </div>
-        
+        <!-- footer -->
+        <div class="footer-copyright text-center">
+            &copy; 2019 Copyright
+        </div>
+        <!-- footer -->
     </body>
 
 </html>
